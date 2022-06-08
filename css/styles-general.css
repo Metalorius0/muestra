@@ -141,6 +141,13 @@ body{
     font-size: 65px;
 }
 
+.footer{
+    font-size: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 15px;
+}
+
 @media screen and (max-height: 450px) {
     .header .overlay a{
         font-size: 20px;
@@ -151,149 +158,4 @@ body{
         top: 15px;
         right: 35px;
     }
-}
-
-/*Texto/imagenes index*/
-
-.titulo{
-    font-family: arial, Arial, Helvetica, sans-serif "Myruad pro";
-    font-size: 25px;
-    box-sizing: border-box;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    width: 90%;
-    max-width: 1100%;
-    height: 100%;
-    margin: auto;
-    gap: 10px;
-    overflow: hidden;
-    align-items: center;
-}
-
-.wight-400{
-    font-weight: 400;
-}
-
-.wight-600{
-    font-weight: 600;
-}
-
-.parrafo{
-    margin-bottom: 20px;
-}
-
-.header2{
-    height: 500px;
-}
-
-.img-masage{
-    width: 100%;
-    height: auto;
-    grid-column: 7/13;
-}
-
-.img{
-    width: 95%;
-    max-width: 400px;
-}
-
-.texto-masage{
-    grid-column: 1/7;
-    padding-right: 20px;
-}
-
-.texto-masage p{
-    *text-align: justify;
-}
-
-
-/*parrafo 2*/
-
-.grid1{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    width: 90%;
-    max-width: 1100%;
-    height: 100%;
-    margin: auto;
-    gap: 10px;
-    overflow: hidden;
-    align-items: center;
-}
-
-.wight-6001{
-    font-weight: 600;
-}
-
-.parrafo1{
-    margin-bottom: 20px;
-}
-
-.header3{
-    height: 500px;
-}
-
-.img-masage1{
-    width: 100%;
-    height: auto;
-    grid-column: 7/13;
-}
-
-.img{
-    width: 95%;
-    max-width: 400px;
-}
-
-.texto-masage1{
-    grid-column: 1/7;
-    padding-right: 20px;
-}
-
-.texto-masage1 p{
-    *text-align: justify;
-}
-
-@media (max-height: 450px) {
-.header2 .grid .texto-masage .img-masage{
-    font-size: 20px;
-}
-
-.header2 .grid .texto-masage .img-masage{
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-}
-}
-
-@media (max-height: 450px) {
-    .header3 .grid1 .texto-masage1 .img-masage1{
-        font-size: 20px;
-    }
-    
-    .header3 .grid1 .texto-masage1 .img-masage1{
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-    }
-
-/*actualizacion y pie de pagina*/
-
-.actualizacion{
-    font-size: 25px;
-    box-sizing: border-box;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.footer{
-    font-size: 12px;
-    box-sizing: border-box;
-    text-align: center;
-    padding-top: 15px;
 }
